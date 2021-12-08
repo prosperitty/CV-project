@@ -7,6 +7,26 @@ import Experience from './components/Experience';
 class App extends Component {
   constructor(props) {
     super(props)
+
+    this.state = {
+      personalInfo: {
+        name: '',
+        email: '',
+        phone: '',
+      },
+      educationInfo: {
+        school: '',
+        major: '',
+        date: '',
+      },
+      experienceInfo: {
+        company: '',
+        position: '',
+        jobDescription: '',
+        dateFrom: new Date(),
+        dateTo: new Date(),
+      }
+    }
   }
 
   render() {
@@ -16,6 +36,8 @@ class App extends Component {
           <General header='general info' />
           <Education header='education' />
           <Experience header='experience' />
+          <button type='button'>edit</button>
+          <button type='button'>start</button>
         </form>
       </div>
     );
