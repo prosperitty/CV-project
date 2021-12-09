@@ -10,9 +10,9 @@ export default class General extends Component {
     return (
       <div>
         <h2>{this.props.header}</h2>
-        <Input inputType='text' inputName='name' handleInputs={this.props.handleInputs} />
-        <Input inputType='text' inputName='email' handleInputs={this.props.handleInputs} />
-        <Input inputType='text' inputName='phone' handleInputs={this.props.handleInputs} />
+        <Input inputType='text' inputName='name' info={this.props.applicationInfo.name} handleInputs={this.props.handleInputs} />
+        <Input inputType='text' inputName='email' info={this.props.applicationInfo.email} handleInputs={this.props.handleInputs} />
+        <Input inputType='text' inputName='phone' info={this.props.applicationInfo.phone} handleInputs={this.props.handleInputs} />
       </div>
     );
   }

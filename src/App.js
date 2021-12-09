@@ -36,7 +36,6 @@ class App extends Component {
   }
 
   handleSubmit() {
-    console.log(this.state);
     this.setState({
       isSubmitted: true,
     })
@@ -57,9 +56,9 @@ class App extends Component {
       return (
         <div>
           <form>
-            <General header='general info' handleInputs={this.handleInputs} />
-            <Education header='education' handleInputs={this.handleInputs} />
-            <Experience header='experience' handleInputs={this.handleInputs} />
+            <General header='general info' applicationInfo={this.state} handleInputs={this.handleInputs} />
+            <Education header='education' applicationInfo={this.state} handleInputs={this.handleInputs} />
+            <Experience header='experience' applicationInfo={this.state} handleInputs={this.handleInputs} />
             <button type='button' onClick={this.handleSubmit}>submit</button>
           </form>
         </div>
