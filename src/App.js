@@ -50,16 +50,20 @@ class App extends Component {
   render() {
     if(this.state.isSubmitted) {
       return (
-        <Application handleEdit={this.handleEdit} applicationInfo={this.state} />
+        <div className='cv'>
+          <Application handleEdit={this.handleEdit} applicationInfo={this.state} />
+        </div>
       );
     } else {
       return (
-        <div>
+        <div className='cv-form-container'>
           <form>
-            <General header='general info' applicationInfo={this.state} handleInputs={this.handleInputs} />
+            <General header='personal information' applicationInfo={this.state} handleInputs={this.handleInputs} />
             <Education header='education' applicationInfo={this.state} handleInputs={this.handleInputs} />
             <Experience header='experience' applicationInfo={this.state} handleInputs={this.handleInputs} />
-            <button type='button' onClick={this.handleSubmit}>submit</button>
+            <div className='btn-container'>
+              <button type='button' onClick={this.handleSubmit}>submit</button>
+            </div>
           </form>
         </div>
       );

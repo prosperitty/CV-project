@@ -8,8 +8,8 @@ export default class Education extends Component {
  
   render() {
     return (
-      <div>
-        <h2>{this.props.header}</h2>
+      <div className='cv-section'>
+        <h3>{this.props.header}</h3>
         <Input inputType='text' inputName='school' info={this.props.applicationInfo.school} handleInputs={this.props.handleInputs} />
         <Input inputType='text' inputName='major' info={this.props.applicationInfo.major} handleInputs={this.props.handleInputs} />
         <Input inputType='date' inputName='date' info={this.props.applicationInfo.date} handleInputs={this.props.handleInputs} />

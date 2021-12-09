@@ -6,7 +6,6 @@ export default class Application extends Component {
   }
  
   render() {
-    console.log(this.props.applicationInfo)
     return (
       <div>
         <div>
@@ -26,7 +25,6 @@ export default class Application extends Component {
           <p>{this.props.applicationInfo.dateFrom}</p>
           <p>{this.props.applicationInfo.dateTo}</p>
         </div>
-        <h3>hello</h3>
         <button type='button' onClick={this.props.handleEdit}>edit</button>
       </div>
     );
