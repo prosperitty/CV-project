@@ -10,14 +10,14 @@ export default class Experience extends Component {
     return (
       <div>
         <h2>{this.props.header}</h2>
-        <Input inputType='text' inputName='company' />
-        <Input inputType='text' inputName='position' />
+        <Input inputType='text' inputName='company' handleInputs={this.props.handleInputs} />
+        <Input inputType='text' inputName='position' handleInputs={this.props.handleInputs} />
         <div>
           <label htmlFor='jobDescription'>job description</label>
-          <textarea name='jobDescription'/>
+          <textarea name='jobDescription' handleInputs={this.props.handleInputs} />
         </div>
-        <Input inputType='text' inputName='dateFrom' />
-        <Input inputType='text' inputName='dateTo' />
+        <Input inputType='date' inputName='dateFrom' handleInputs={this.props.handleInputs} />
+        <Input inputType='date' inputName='dateTo' handleInputs={this.props.handleInputs} />
       </div>
     );
   }

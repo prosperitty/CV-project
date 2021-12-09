@@ -9,7 +9,7 @@ export default class Input extends Component {
     return (
       <div>
         <label htmlFor={this.props.inputName}>{this.props.inputName}</label>
-        <input type={this.props.inputType} name={this.props.inputName} />
+        <input type={this.props.inputType} name={this.props.inputName} onChange={this.props.handleInputs}/>
       </div>        
     );
   }
