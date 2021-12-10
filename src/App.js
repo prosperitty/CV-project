@@ -57,6 +57,10 @@ class App extends Component {
     } else {
       return (
         <div className='cv-form-container'>
+          <header>
+            <h1>CV Application Generator</h1>
+            <h2>Create your application</h2>
+          </header>
           <form>
             <General header='personal information' applicationInfo={this.state} handleInputs={this.handleInputs} />
             <Education header='education' applicationInfo={this.state} handleInputs={this.handleInputs} />
