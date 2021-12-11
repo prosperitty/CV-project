@@ -36,7 +36,7 @@ export default class Application extends Component {
           </div>
           <p className='info-job-description'>{this.props.applicationInfo.jobDescription}</p>
         </div>
-        <button type='button' onClick={this.props.handleEdit}>edit</button>
+        <button className='btn-edit' type='button' onClick={this.props.handleEdit}>edit</button>
       </div>
     );
   }
