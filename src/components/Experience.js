@@ -1,11 +1,7 @@
 import { Component } from "react";
 import Input from "./Input";
 
-export default class Experience extends Component {
-  constructor(props) {
-    super(props);
-  }
- 
+export default class Experience extends Component { 
   render() {
     return (
       <div className='cv-section'>

@@ -2,10 +2,6 @@ import { Component } from "react";
 import Input from "./Input";
 
 export default class Education extends Component {
-  constructor(props) {
-    super(props);
-  }
- 
   render() {
     return (
       <div className='cv-section'>
