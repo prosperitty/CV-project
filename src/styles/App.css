@@ -85,3 +85,39 @@ button {
 .btn-container {
   text-align: center;
 }
+
+.application {
+  max-width: 950px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.info-name {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container-email-phone {
+  display: flex;
+  justify-content: space-around;
+}
+
+.application-title {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+h4 {
+  margin: 18px 0 0 0;
+  text-transform: capitalize;
+}
+
+.container-major-date,
+.container-position-date {
+  display: flex;
+  justify-content: space-between;
+
+  text-transform: capitalize;
+}
