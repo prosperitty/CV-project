@@ -13,18 +13,18 @@ class App extends Component {
     this.handleEdit = this.handleEdit.bind(this);
 
     this.state = {
-        name: '',
-        email: '',
-        phone: '',
-        school: '',
-        major: '',
-        date: new Date().toLocaleDateString('en-US'),
-        company: '',
-        position: '',
-        jobDescription: '',
-        dateFrom: new Date().toLocaleDateString('en-US'),
-        dateTo: new Date().toLocaleDateString('en-US'),
-        isSubmitted: false,
+      name: '',
+      email: '',
+      phone: '',
+      school: '',
+      major: '',
+      date: new Date().toLocaleDateString('en-US'),
+      company: '',
+      position: '',
+      jobDescription: '',
+      dateFrom: new Date().toLocaleDateString('en-US'),
+      dateTo: new Date().toLocaleDateString('en-US'),
+      isSubmitted: false,
     }
   }
 
