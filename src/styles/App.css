@@ -101,6 +101,11 @@ button {
   text-transform: capitalize;
 }
 
+.info-job-description {
+  word-break: break-all;
+  white-space: normal;
+}
+
 .container-email-phone {
   display: flex;
   justify-content: space-around;
