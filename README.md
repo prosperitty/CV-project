@@ -37,6 +37,16 @@ The user may also click the edit button to edit the document. All previous infor
 - Add a feature which allows the user to add multiple schools and/or work experience
 - Add a feature which allows the user to provide an introduction
 
+## Learning Objectives
+- React Framework
+- JSX
+- Components
+- Class Components
+- Props
+- State
+- setState()
+- React Event Listeners
+
 ## References
 
 [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/cv-application)
