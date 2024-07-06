@@ -51,4 +51,4 @@ The user may also click the edit button to edit the document. All previous infor
 
 [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/cv-application)
 
-[Live Demo](https://alex-lvl.github.io/CV-project/)
+[Live Demo](https://prosperitty.github.io/CV-project/)
